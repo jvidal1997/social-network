@@ -1,0 +1,42 @@
+/* Font family: Rubik */
+
+/*@font-face {
+  font-family: reg;
+  src: url(../public/fonts/400\ Rubik-Regular.ttf);
+}
+@font-face {
+  font-family: med;
+  src: url(../public/fonts/500\ Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: bold;
+  src: url(../public/fonts/700\ Rubik-Bold.ttf);
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+html, body, #root, .app {
+  height: 100%;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+}
+
+.myStyle {
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.3),
+				  1px 1px 0 rgba(0, 0, 0, 0.3),
+				 1px -1px 0 rgba(0, 0, 0, 0.3),
+				-1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* #messageIcon {
+  position: relative;
+  top: 50px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+#messageSelect {
+  background-color: transparent;
+}
