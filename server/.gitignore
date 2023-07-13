@@ -1,0 +1,7 @@
+#.env; DB setup
+#copy and paste everything below over .env file
+
+
+###     MONGO_URL=mongodb+srv://officialprincerome:YoursInEternity@cluster0.zricdzt.mongodb.net/?retryWrites=true&w=majority
+###     JWT_SECRET='somesuperhardstringtoguess'
+###     PORT=3001
